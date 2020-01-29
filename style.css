@@ -1,0 +1,22 @@
+:root {
+    --base: 16px; 
+}
+
+body {
+    font-size: var(--base);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    justify-items: stretch;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
