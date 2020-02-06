@@ -1,0 +1,20 @@
+svg text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+  }
+
+.context .domain{
+  stroke: #cdcdcd
+}
+
+.x line {
+  stroke: #ccc
+}
+
+.y line {
+  stroke: #ccc
+}
